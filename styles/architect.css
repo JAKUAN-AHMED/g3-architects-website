@@ -154,6 +154,7 @@ main
         flex-direction: column;
         position: relative;
         right: 15%;
+        background: #FFF;
     }
     .teams-img-container
     {
@@ -222,6 +223,7 @@ main
         flex-direction: column;
         position: relative;
         right: 5%;
+        background: #FFF;
 
     }
     .teams-content
