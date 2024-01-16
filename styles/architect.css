@@ -4,11 +4,20 @@
 *
 {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-/* .btn-primary
+.btn-primary
 {
-    color: yellow;
-} */
+    border-radius: 8px;
+    font-size: 1.25rem;
+    color: #FFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 10px;
+}
 /* header styles */
 header
 {
@@ -26,10 +35,14 @@ nav
     color: #131313;
     font-size: 45px;
     font-weight: 700;
+    position: relative;
+    right: 20%;
 }
 nav>ul
 {
+    position: relative;
     display: flex;
+    left: 20%;
     
 }
 nav li
@@ -55,9 +68,98 @@ nav li a{
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
+    margin: 40px auto;
 
 }
 .banner-description
 {
     color: #727272;
+    margin-top: 15px;
+}
+.banner img
+{
+    margin-top: 20px;
+    position: relative;
+    /* width: 100%; */
+    max-width: 1100px;
+    right: 12%;
+}
+/*  Responsive media query*/
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header
+    {
+        padding: 15px;
+    }
+    .banner img
+    {
+        position: relative;
+        right: 2%;
+        width: 100%;
+    }
+    nav
+    {
+        position: relative;
+        right: 25%;
+        margin-top: 5px;
+        flex-direction:column;
+    }
+    .nav-title
+    {
+        position: relative;
+        left: 15%;
+        margin-bottom: 10px;
+    }
+    .banner-title
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 50px;
+        margin: 0 auto;
+        position: relative;
+        right: 5%;
+
+    }
+    .banner-description
+    {
+        font-size: 10px;
+        position: relative;
+        right: 5%;
+    }
+}
+/* medium devices-tablet */
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    header
+    {
+        margin: auto 0;
+    }
+    nav
+    {
+        flex-direction: column;
+        position: relative;
+    }
+    .banner img
+    {
+        width: 610px;
+        position: relative;
+        right: 110px;
+    }
+    .nav-title
+    {
+        position: relative;
+        right: 60%;
+    }
+    nav li
+    {
+        position: relative;
+        left: 30%;
+        bottom: 30px;
+    }
 }
