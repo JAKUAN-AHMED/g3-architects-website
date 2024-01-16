@@ -90,6 +90,7 @@ nav li a{
 }
 
 /* main styles */
+/* section-1 */
 main
 {
     max-width: 1440px;
@@ -128,6 +129,23 @@ main
     color: #FF900E;
     font-weight: 700;
 }
+/* section-2 */
+.section-title
+{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    /* left: 8%; */
+    padding-left: 100px;
+    margin-top: 10px; */
+}
+.sec_2_p
+{
+    padding-left: 100px;
+}
+
+
 
 /*  Responsive media query*/
 /* mobile devices */
