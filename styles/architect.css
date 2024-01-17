@@ -144,6 +144,50 @@ main
 {
     padding-left: 100px;
 }
+/* features styles */
+.features
+{
+    display: flex;
+    margin-top: 130px;
+    padding-left: 90px;
+}
+.features .card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+.features h4
+{
+    color: #131313;
+}
+.features h3
+{
+    padding-left: 5px;
+    padding-bottom: 40px;
+}
+.features img
+{
+    width:100%;
+    /* padding-right: 10px; */
+    /* padding-left: 30px; */
+}
+.ten-years-bedge
+{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 250px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.ten-years-bedge h2
+{
+    font-size: 4rem;
+    margin: 0;
+}
 /* facts section */
 .facts
 {
@@ -224,7 +268,7 @@ main
         flex-direction: column;
         gap: 20px;
     }
-    .facts-card-container
+    .facts-card-container,.features
     {
         flex-direction: column;
         gap: 15px;
