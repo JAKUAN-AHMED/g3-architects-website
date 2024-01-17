@@ -255,7 +255,19 @@ main
     margin: 0 auto;
     padding: 60px 80px;
 }
-
+/* footer styles */
+footer p
+{
+    text-align: center;
+    color: #424242;
+    border-radius: 8px;
+    background: #FFF4E7;
+    /* width: 1400px; */
+    padding-bottom: 40px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 20px;
+}
 /*  Responsive media query*/
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -328,6 +340,11 @@ main
         border: 1px solid ghostwhite;
         padding: 5px;
         box-shadow:50px;
+    }
+    footer p
+    {
+        width: 100%;
+        margin: 0 auto;
     }
     
 }
